@@ -2,7 +2,7 @@ package week3fp
 
 object Test extends App {
 
-  var some = SomeTest(1,"someTest", Some(0))
+  var some = SomeTest(1,"someTest", Some(7))
 
   val result: String = some match {
     case SomeTest(i,d,k) if k.isEmpty => "неизвестно"
